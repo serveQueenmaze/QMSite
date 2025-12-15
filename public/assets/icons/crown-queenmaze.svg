@@ -1,0 +1,15 @@
+<svg viewBox="0 0 128 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <g fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- five prongs with rounded terminals -->
+    <path d="M10 54 L30 26 L50 44 L64 18 L78 44 L98 26 L118 54" />
+    <!-- terminals -->
+    <circle cx="30" cy="26" r="4"/>
+    <circle cx="64" cy="18" r="4"/>
+    <circle cx="98" cy="26" r="4"/>
+    <circle cx="50" cy="44" r="3.5"/>
+    <circle cx="78" cy="44" r="3.5"/>
+    <!-- double band -->
+    <path d="M18 60 H110" />
+    <path d="M22 68 H106" />
+  </g>
+</svg>

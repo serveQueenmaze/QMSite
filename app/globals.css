@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Brand tokens */
+:root {
+  --gold: #C7A869;
+  --gold-dark: #A78643;
+  --burgundy: #41161B;
+  --ink: #0B0B0C;
+  --micro: #8B8B8B;
+}
+
+/* Typography */
+.font-display { font-family: var(--font-cinzel), serif; letter-spacing: .02em; }
+body { font-family: var(--font-body), serif; }
+
+h1,h2,h3 { line-height: 1.15; }
+p,li { line-height: 1.7; }
+blockquote { font-style: italic; line-height: 1.6; }
+p { font-feature-settings: "liga" 1, "kern" 1, "onum" 1; }
+
+/* Card glow */
+.house-card:hover .house-label { text-shadow: 0 0 6px rgba(199,168,105,.6); }
+
+/* Candlelight pulse */
+@keyframes candlePulse {
+  0%, 100% { opacity: .20; transform: scale(1); }
+  50%      { opacity: .32; transform: scale(1.02); }
+}
+.candle-pulse {
+  position: absolute; inset: 0; pointer-events: none;
+  background:
+    radial-gradient(1100px 780px at 38% 62%, rgba(199,168,105,0.15), rgba(0,0,0,0) 58%),
+    radial-gradient(900px 650px at 62% 42%, rgba(255,215,160,0.10), rgba(0,0,0,0) 55%);
+  animation: candlePulse 8s ease-in-out infinite; z-index: 1;
+}
+@media (prefers-reduced-motion: reduce) { .candle-pulse { animation: none; } }
+html.candle-off .candle-pulse { display: none !important; }
+
+/* Smooth scrolling & fixed-header offset */
+html { scroll-behavior: smooth; }
+#manifesto, #house { scroll-margin-top: 88px; }
