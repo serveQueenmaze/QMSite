@@ -71,7 +71,7 @@ export default function ReverieClient({ images = [] }: Props) {
             className="tile relative rounded-2xl overflow-hidden cursor-pointer transition-transform duration-300 hover:scale-[1.03]"
             style={{ gridColumn: `span ${i % 5 === 0 ? 6 : 4}`, height: (i % 3 === 0 ? 420 : 320), boxShadow: '0 6px 22px rgba(0,0,0,.38)' }}
             onMouseMove={(e) => {
-              const el = e.currentTarget as HTMLDivElement;
+              const el = e.currentTarget;
               const r = el.getBoundingClientRect();
               const dx = (e.clientX - (r.left + r.width / 2)) / r.width;
               const dy = (e.clientY - (r.top + r.height / 2)) / r.height;
