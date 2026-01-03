@@ -79,7 +79,7 @@ export default function ReverieClient({ images = [] }: Props) {
               el.style.setProperty('--ry', `${dx * 2}deg`);
               el.style.transform = `rotateX(var(--rx)) rotateY(var(--ry)) scale(1.03)`;
             }}
-            onMouseLeave={(e) => { const el = e.currentTarget as HTMLDivElement; el.style.transform = `none`; }}
+            onMouseLeave={(e) => { const el = e.currentTarget; el.style.transform = `none`; }}
             onClick={() => setOpen(i)} aria-label={`Open Reverie image ${i + 1}`}>
             <img src={src} alt={`Reverie ${i + 1}`} className="w-full h-full object-cover will-change-transform" style={{ transition: 'transform 300ms ease' }} />
           </button>
