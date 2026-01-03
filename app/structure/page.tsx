@@ -23,20 +23,20 @@ const offerings: Array<{ title: string; lines: string[] }> = [
   {
     title: 'Event Experiences (Kink)',
     lines: [
-      'Serve Me for the duration of an event — Pedestal, Whimper, Unleashed, Devotion, or similar female domination themed events.',
+      'Serve Me for the duration of an event. Pedestal, Whimper, Unleashed, Devotion, or similar female domination themed events.',
       'You will facilitate My comfort throughout: transport to and from the venue, carrying tools, ensuring refreshments, and attending to My requirements.',
     ],
   },
   {
     title: 'Social Companionship',
     lines: [
-      'Dinner engagements, shopping appointments, cash meets or museum visits — each experience tailored and negotiated depending on setting and duration.',
+      'Dinner engagements, shopping appointments, cash meets or museum visits. Each experience tailored and negotiated depending on setting and duration.',
     ],
   },
   {
     title: 'Public Social Engagements',
     lines: [
-      'Theatre premieres, black-tie balls, charity galas, or weddings — elevate your evening with a Queen by your side.',
+      'Theatre premieres, black-tie balls, charity galas, or weddings, elevate your evening with a Queen by your side.',
     ],
   },
 ];
