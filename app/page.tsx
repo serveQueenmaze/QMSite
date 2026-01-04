@@ -40,7 +40,7 @@ export default function Home() {
     { href: 'https://x.com/QueenMazetweets', label: 'X (Twitter)', sub: 'Thoughts & Philosophy' },
     { href: 'https://bsky.app/profile/queenmaze.bsky.social', label: 'Bluesky', sub: 'Parallel Reflections' },
     { href: '#email', label: 'Email List', sub: 'Join the House' },
-    { href: '#merch', label: 'Merch (Future)', sub: 'Objects of Discipline' },
+    { href: '#merch', label: 'Merch (Coming soon)', sub: 'Objects of Discipline' },
   ];
 
   return (
@@ -98,11 +98,11 @@ export default function Home() {
           <div className="h-px w-24 mx-auto" style={{ backgroundColor: 'var(--gold)' }} />
           <p className="text-xl md:text-2xl leading-relaxed">
             There is power in obedience.<br />There is beauty in restraint.<br />
-            In the House of Maze, discipline becomes devotion — and surrender, a form of art.<br />
-            I create structured spaces where those who crave control learn the grace of letting go. <span className="whitespace-nowrap">And those who long to serve bow at my throne.</span>
+            In the House of Maze, discipline becomes devotion and surrender a form of art.<br />
+            I create structured spaces where those who crave control learn the grace of letting go. <span className="whitespace-nowrap">And those who long to serve... bow at my throne.</span>
           </p>
           <div className="h-px w-24 mx-auto" style={{ backgroundColor: 'var(--gold)' }} />
-          <p className="text-sm text-zinc-400">Welcome to my praxis of power — where elegance and authority coexist, and luxury is the standard.</p>
+          <p className="text-sm text-zinc-400">Welcome to my praxis of power. Where elegance and authority coexist, and luxury is the standard.</p>
         </div>
       </section>
 
@@ -110,7 +110,7 @@ export default function Home() {
       <section id="house" className="py-20 px-6">
         <div className="max-w-5xl mx-auto">
           <h2 className="font-display text-2xl md:text-3xl text-center mb-3" style={{ color: 'var(--gold)' }}>The House of Maze</h2>
-          <p className="text-center text-zinc-300 mb-10 leading-relaxed text-lg">Every empire needs its corridors. Choose your path — and step deeper into the Maze.</p>
+          <p className="text-center text-zinc-300 mb-10 leading-relaxed text-lg">Every empire needs its corridors. Choose your path and step deeper into the Maze.</p>
           <div className="grid gap-4 md:grid-cols-2">
             {houseLinks.map(({ href, label, sub }) => (
               <a key={label} href={href} target="_blank" rel="noreferrer" className="house-card group rounded-2xl p-6 border text-center transition duration-300 ease-out transform hover:-translate-y-0.5 hover:shadow-md" style={{ borderColor: 'var(--gold-dark)' }}>
