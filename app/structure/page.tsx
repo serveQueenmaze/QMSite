@@ -24,7 +24,7 @@ const offerings: Array<{ title: string; lines: string[] }> = [
     title: 'Event Experiences (Kink)',
     lines: [
       'Serve Me for the duration of an event. Pedestal, Whimper, Unleashed, Devotion, or similar female domination themed events.',
-      'You will facilitate My comfort throughout: transport to and from the venue, carrying tools, ensuring refreshments, and attending to My requirements.',
+      'You will facilitate My comfort throughout: transport to and from the venue, carrying tools, ensuring refreshments, and attending to My requirements. Prices negotiated based on setting, duration, hotel etc.',
     ],
   },
   {
@@ -36,7 +36,7 @@ const offerings: Array<{ title: string; lines: string[] }> = [
   {
     title: 'Public Social Engagements',
     lines: [
-      'Theatre premieres, black-tie balls, charity galas, or weddings, elevate your evening with a Queen by your side.',
+      'Theatre premieres, black-tie balls, charity galas, or weddings, elevate your evening with a Queen by your side. Each experience tailored and negotiated depending on setting and duration',
     ],
   },
 ];
@@ -84,7 +84,7 @@ export default function StructurePage() {
             STRUCTURE
           </h1>
           <p className="text-lg text-zinc-200">
-            Discipline is the foundation of all transformation. Sessions with Queen Maze are skillfully crafted journeys in surrender — immersive, sensual, psychological, and artfully exacting.
+            Discipline is the foundation of all transformation. Sessions with Queen Maze are skillfully crafted journeys in surrender: immersive, sensual, psychological, and artfully exacting.
           </p>
           <div className="h-px w-24 mx-auto" style={{ backgroundColor: 'var(--gold)' }} />
         </div>
