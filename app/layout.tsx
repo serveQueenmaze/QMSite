@@ -38,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
 
-        <header className="fixed top-0 inset-x-0 z-50 bg-black/70 backdrop-blur">
+        <header className="fixed top-0 inset-x-0 z-[999] bg-black/55 backdrop-blur-md">
           <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
             {/* Brand / Home */}
             <a
