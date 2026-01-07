@@ -46,7 +46,6 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-zinc-100">
       {/* Header */}
-      <header className={`fixed inset-x-0 top-0 z-50 transition backdrop-blur ${scrolled ? 'bg-black/70' : 'bg-transparent'}`}>
         <div className="max-w-6xl mx-auto flex items-center justify-between px-5 py-4">
           <div className="font-display text-xl md:text-2xl" style={{ color: 'var(--gold)' }}>
             Queen Maze
