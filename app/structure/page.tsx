@@ -45,7 +45,6 @@ export default function StructurePage() {
   return (
     <main className="min-h-screen bg-black text-zinc-100">
       {/* Header */}
-      <header className="fixed inset-x-0 top-0 z-50 backdrop-blur bg-black/70">
         <div className="max-w-6xl mx-auto flex items-center justify-between px-5 py-4">
           <div className="font-display text-xl md:text-2xl" style={{ color: 'var(--gold)' }}>Queen Maze</div>
           <nav className="hidden md:flex items-center gap-6 text-sm">
