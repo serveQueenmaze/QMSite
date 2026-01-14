@@ -49,7 +49,7 @@ export default function Home() {
       {/* Hero */}
       <section id="top" className="relative min-h-[100svh] grid place-items-center px-6 bg-center bg-cover" style={{ backgroundImage: "url('/assets/hero/hero.jpg')" }}>
         <div className="candle-pulse" aria-hidden />
-        <div aria-hidden className="absolute inset-0" style={{ zIndex: 0 }}>
+        <div aria-hidden className="absolute inset-0 hero-overlay" style={{ zIndex: 0 }}>
           <div className="absolute inset-0" style={{ background:
             `radial-gradient(900px 600px at -10% 50%, rgba(199,168,105,0.10), transparent 55%),` +
             `radial-gradient(700px 480px at 50% -15%, rgba(65,22,27,0.10), transparent 70%),` +
