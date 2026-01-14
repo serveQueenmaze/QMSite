@@ -45,21 +45,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-black text-zinc-100">
-      {/* Header */}
-        <div className="max-w-6xl mx-auto flex items-center justify-between px-5 py-4">
-          <div className="font-display text-xl md:text-2xl" style={{ color: 'var(--gold)' }}>
-            Queen Maze
-          </div>
-          <nav className="hidden md:flex items-center gap-6 text-sm">
-            <a href="#" className="hover:text-[var(--gold)]">Home</a>
-            <a href="/structure" className="hover:text-[var(--gold)]">Structure</a>
-            <a href="#house" className="hover:text-[var(--gold)]">Empire</a>
-            <a href="/reverie" className="hover:text-[var(--gold)]">Reverie</a>
-            <a href="/contact" className="hover:text-[var(--gold)]">Kneel</a>
-          </nav>
-        </div>
-      </header>
-
+      
       {/* Hero */}
       <section id="top" className="relative min-h-[100svh] grid place-items-center px-6 bg-center bg-cover" style={{ backgroundImage: "url('/assets/hero/hero.jpg')" }}>
         <div className="candle-pulse" aria-hidden />
