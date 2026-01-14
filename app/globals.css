@@ -45,3 +45,9 @@ html.candle-off .candle-pulse { display: none !important; }
 /* Smooth scrolling & fixed-header offset */
 html { scroll-behavior: smooth; }
 #manifesto, #house { scroll-margin-top: 88px; }
+
+/* Prevent decorative layers from stealing taps */
+.candle-pulse,
+.hero-overlay {
+  pointer-events: none !important;
+}
