@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${cinzel.variable} ${spectral.variable}`}>
       <head />
-      <body suppressHydrationWarning>
+      <body suppressHydrationWarning className="bg-black text-zinc-100 overflow-x-hidden">
         <script
           dangerouslySetInnerHTML={{
             __html: `
