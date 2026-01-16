@@ -47,7 +47,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-zinc-100">
       
       {/* Hero */}
-      <section id="top" className="relative min-h-[100svh] grid place-items-center px-6 bg-center bg-cover" style={{ backgroundImage: "url('/assets/hero/hero.jpg')" }}>
+      <section id="top" className="relative min-h-[100svh] grid place-items-center px-6 bg-center bg-cover overflow-hidden" style={{ backgroundImage: "url('/assets/hero/hero.jpg')" }}>
         <div className="candle-pulse" aria-hidden />
         <div aria-hidden className="absolute inset-0 hero-overlay" style={{ zIndex: 0 }}>
           <div className="absolute inset-0" style={{ background:
