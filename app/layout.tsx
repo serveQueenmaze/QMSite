@@ -38,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
 
-        <header className="fixed top-0 inset-x-0 z-[9999] bg-black/90 backdrop-blur-md"
+        <header className="fixed top-0 inset-x-0 z-[9999] bg-black/70 backdrop-blur-sm"
   style={{
     boxShadow: 'none',
     borderBottom: '1px solid rgba(255,255,255,0.06)',
