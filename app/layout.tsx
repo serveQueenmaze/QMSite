@@ -59,7 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
             {/* Mobile menu placeholder */}
             <button className="md:hidden text-sm text-zinc-200" aria-label="Open menu">
-              <a href="/#" className="hover:text-[var(--gold)]">Menu</a>
+              <a href="/#" className="hover:text-[var(--gold)]">House</a>
             </button>
           </div>
         </header>
