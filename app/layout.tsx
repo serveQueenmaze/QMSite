@@ -15,8 +15,8 @@ const spectral = Spectral({
 });
 
 export const metadata: Metadata = {
-  title: 'Queen Maze — Where desire meets discipline.',
-  description: 'Queen Maze: Elite Dominatrix, BDSM facilitator & transformational guide.',
+   title: 'Queen Maze refinement through discipline.',
+  description: 'Queen Maze is a luxury sensory experience designer and facilitator of refined power dynamics, offering structure-led transformation and curated submission encounters.',
   icons: { icon: '/favicon.png' },
 };
 
