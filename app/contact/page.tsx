@@ -38,7 +38,7 @@ export default function ContactPage() {
         <div className="max-w-5xl mx-auto space-y-1">
           <div className="text-sm" style={{ color: 'var(--gold)' }}>© {new Date().getFullYear()} Queen Maze 👑 · All Rights Reserved.</div>
           <div className="text-xs" style={{ color: 'var(--micro)' }}>A forward-facing brand exploring refined power dynamics and facilitating elite sensory experiences for discerning gentlemen.</div>
-        </div>
+       <a href="/privacy" className="hover:text-[var(--gold)]">  Privacy Policy </a> </div>
       </footer>
     </main>
   );
