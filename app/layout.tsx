@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Cinzel_Decorative, Spectral } from 'next/font/google';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const cinzel = Cinzel_Decorative({
   subsets: ['latin'],
@@ -65,6 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
 
         <main className="pt-16">{children}</main>
+        <SpeedInsights />
       </body>
     </html>
   );
