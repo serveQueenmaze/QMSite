@@ -98,7 +98,7 @@ export default function StructurePage() {
           <div>
             <h3 className="font-display text-lg md:text-xl mb-2" style={{ color: 'var(--gold)' }}>Location</h3>
             <p className="text-zinc-300 leading-relaxed">
-              Distinguished private dungeons in <strong>Wirral</strong> and <strong>Manchester</strong>.<br />
+              Distinguished private dungeons in <strong>Wirral </strong> <strong>London </strong> and <strong>Manchester</strong>.<br />
               House calls available for trusted, established devotees only.<br />
               <em>Fly Me to You</em> — available upon discussion.
             </p>
@@ -117,10 +117,10 @@ export default function StructurePage() {
         <div className="max-w-3xl mx-auto rounded-2xl p-6 text-center border" style={{ borderColor: 'var(--gold-dark)' }}>
           <h3 className="font-display text-xl md:text-2xl mb-3" style={{ color: 'var(--gold)' }}>Begin the Process</h3>
           <p className="text-zinc-300 leading-relaxed mb-4">
-            Start the process now →Send a detailed email with which session/s you would like to request, dates, times, locations etc
+            Start the process now → Send a detailed email with which session/s you would like to request, dates, times, locations etc
           </p>
           <a href="mailto:QueenMazeRoyalty@gmail.com" className="inline-block px-6 py-3 rounded-2xl border transition hover:-translate-y-0.5 hover:shadow-md" style={{ borderColor: 'var(--gold-dark)', color: 'var(--gold)' }}>Request Structure</a>
-          <div className="mt-3 text-sm text-zinc-400">QueenMazeRoyalty@gmail.com</div>
+          <div className="mt-3 text-sm text-zinc-400">Be specific, detailed & respectful.</div>
         </div>
       </section>
 
