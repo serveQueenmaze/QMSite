@@ -18,6 +18,30 @@ export const metadata: Metadata = {
    title: 'Queen Maze refinement through discipline.',
   description: 'Queen Maze is a luxury sensory experience designer and facilitator of refined power dynamics, offering structure-led transformation and curated submission encounters.',
   icons: { icon: '/favicon.png' },
+   openGraph: {
+    title: 'Queen Maze — Refinement through Discipline',
+    description:
+      'A private world of discipline, structure, worship and refined power.',
+    url: 'https://www.queenmaze.com',
+    siteName: 'Queen Maze',
+    images: [
+      {
+        url: 'https://www.queenmaze.com/og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Queen Maze — Refinement through Discipline',
+      },
+    ],
+    type: 'website',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Queen Maze — Refinement through Discipline',
+    description:
+      'A private world of discipline, worship, structure, and refined power.',
+    images: ['/og.jpg'],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
