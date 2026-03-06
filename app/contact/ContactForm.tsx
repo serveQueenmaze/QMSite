@@ -59,7 +59,7 @@ export default function ContactForm() {
     return errs;
   }
   function buildMailto(){
-    const to = 'QueenMazeRoyalty@gmail.com';
+    const to = 'serve@queenmaze.com';
     const subject = `Petition to Serve — ${form.name}`;
     const body =
       `Full name: ${form.name}\n` +
