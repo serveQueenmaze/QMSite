@@ -21,7 +21,7 @@ const offerings: Array<{ title: string; lines: string[] }> = [
     ],
   },
   {
-    title: 'Event Experiences (Kink)',
+    title: 'Event Experiences ',
     lines: [
       'Serve Me for the duration of an event. Pedestal, Whimper, Unleashed, Devotion, or similar female domination themed events.',
       'You will facilitate My comfort throughout: transport to and from the venue, carrying tools, ensuring refreshments, and attending to My requirements. Prices negotiated based on setting, duration, hotel etc.',
@@ -120,7 +120,7 @@ export default function StructurePage() {
             Start the process now → Send a detailed email, 
             Including which session/s you would like to request, dates, times, locations etc
           </p>
-          <a href="mailto:QueenMazeRoyalty@gmail.com" className="inline-block px-6 py-3 rounded-2xl border transition hover:-translate-y-0.5 hover:shadow-md" style={{ borderColor: 'var(--gold-dark)', color: 'var(--gold)' }}>Request Structure</a>
+          <a href="mailto:serve@queenmaze.com" className="inline-block px-6 py-3 rounded-2xl border transition hover:-translate-y-0.5 hover:shadow-md" style={{ borderColor: 'var(--gold-dark)', color: 'var(--gold)' }}>Request Structure</a>
           <div className="mt-3 text-sm text-zinc-400">Be specific, detailed & respectful.</div>
         </div>
       </section>
