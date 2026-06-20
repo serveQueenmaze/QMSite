@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Chamber of Reverie — Queen Maze',
-  description: 'An Archive of devotion, desire and deviance.',
+  title: 'Chamber of Reverie — Photo gallery Queen Maze',
+  description: 'A photo gallery, Archive of submissive devotion, female domination, male subservience, fleshly desire and hedonistic deviance.',
 };
 import ReverieClient from './ReverieClient';
 export default function ReveriePage() {
