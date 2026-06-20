@@ -1,10 +1,5 @@
+'use client';
 import { useEffect, useState } from 'react';
-
-export const metadata = {
-  title: 'Queen Maze — Refinement through Discipline',
-  description:
-    'Queen Maze is an elite ebony Manchester dominatrix. A forward-facing brand exploring discreet power dynamics, chastity discipline, and transformational experiences through structure, male surrender, and female authority.',
-};
 
 /* Option B Crown — matte gold line‑art */
 function CrownIcon(props: React.SVGProps<SVGSVGElement>) {
