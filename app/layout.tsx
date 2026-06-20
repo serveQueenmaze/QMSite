@@ -16,7 +16,7 @@ const spectral = Spectral({
 
 export const metadata: Metadata = {
    title: 'Queen Maze refinement through discipline.',
-  description: 'Queen Maze is a luxury sensory experience designer and facilitator of refined power dynamics, offering structure-led transformation and curated submission encounters.',
+  description: ' Professional mistress, best dominatrix in Liverpool Queen Maze is a luxury sensory experience designer and facilitator of refined power dynamics, a black dominant offering structure-led transformation and curated submission sessions.',
   icons: { icon: '/favicon.png' },
    openGraph: {
     title: 'Queen Maze — Refinement through Discipline',
