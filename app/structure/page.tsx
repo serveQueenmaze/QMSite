@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Structure — Queen Maze',
-  description: 'Structure · Queen Maze',
+  title: 'Structure — Discreet meets Queen Maze',
+  description: 'Structure · High class ebony Manchester dominatrix, explore discreet discipline sessions in Liverpool with Queen Maze, transformatonal experiences through structure Bdsm, female authority and male surrender',
 };
 
 const offerings: Array<{ title: string; lines: string[] }> = [
