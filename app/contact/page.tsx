@@ -4,8 +4,8 @@
 import ContactForm from './ContactForm';
 
 export const metadata = {
-  title: 'Kneel — Queen Maze',
-  description: 'Petition to serve · Private contact form',
+  title: 'Kneel — Private booking enquiries Queen Maze',
+  description: ' request a discreet introduction and Petition to serve · Private contact form',
 };
 
 export default function ContactPage() {
