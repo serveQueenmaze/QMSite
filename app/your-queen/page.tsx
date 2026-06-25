@@ -15,7 +15,7 @@ const method = [
     numeral: 'Ⅱ',
     title: 'Assessment',
     body:
-      'Chemistry cannot be assumed. Compatibility matters. Not every person who asks will receive time with me. I look for curiosity, emotional maturity, honesty and a willingness to engage with discipline respectfully. The strongest dynamics are built deliberately, never hurried.',
+      'Chemistry cannot be assumed. Compatibility matters. Not every person who enquires will receive time with me. I look for curiosity, emotional maturity, honesty, consistency and a willingness to engage with discipline respectfully. The strongest dynamics are built deliberately, never hurried.',
   },
   {
     numeral: 'Ⅲ',
@@ -27,7 +27,7 @@ const method = [
     numeral: 'Ⅳ',
     title: 'Experience',
     body:
-      'Within a carefully negotiated framework, I create an environment where responsibility can be set aside and attention redirected inward. Sessions are crafted to challenge, reward, surprise and encourage reflection, always grounded within the container of communication, consent and mutual respect.',
+      'Within a carefully negotiated framework, I create an environment where responsibility can be set aside and attention redirected inward. Sessions are crafted to challenge, reward, surprise and encourage reflection. While always staying grounded within the container of communication, consent and mutual respect.',
   },
   {
     numeral: 'Ⅴ',
@@ -96,7 +96,7 @@ export default function YourQueenPage() {
             </p>
 
             <p>
-              In my experience people need safe spaces to: surrender, release the burdens they carry, let go of the weight of societal expectations and simply to play, or exist and be told what to do. A space to explore the edges of themselves, to shut out the world, to push the boundaries of masculinity or to be pushed to their breaking point for fun or an emotional release.
+              In my experience people need safe spaces to: surrender, release the burdens they carry, let go of the weight of societal expectations and simply to play. A space to just exist, surrender to service and be told what to do. A space to explore the edges of themselves, to shut out the world, to push the boundaries of masculinity or to be pushed to their breaking point for fun or an emotional release.
             </p>
 
             <div className="py-10 text-center">
@@ -170,7 +170,7 @@ export default function YourQueenPage() {
             </p>
 
             <p>
-              Many are professionals, entrepreneurs, creatives or leaders whose daily lives demand constant decision-making. In my world, they discover something increasingly rare: permission to relinquish that responsibility for a while within a structured, carefully held environment..
+              Many are professionals, entrepreneurs, creatives, founders, high profile individuals or leaders whose daily lives demand constant decision-making. In my world, they discover something increasingly rare: permission to relinquish that responsibility for a while within a structured, carefully held environment.
             </p>
           </section>
 
