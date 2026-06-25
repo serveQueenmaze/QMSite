@@ -75,6 +75,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {/* Desktop nav */}
             <nav className="hidden md:flex items-center gap-6 text-sm">
             <a href="/#" className="hover:text-[var(--gold)]">Home</a>
+            <a href="/your-queen" className="hover:text-[var(--gold)]">Your Queen</a>
             <a href="/structure" className="hover:text-[var(--gold)]">Structure</a>
             <a href="/#house" className="hover:text-[var(--gold)]">Empire</a>
             <a href="/reverie" className="hover:text-[var(--gold)]">Reverie</a>
@@ -84,6 +85,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {/* Mobile menu placeholder */}
             <button className="md:hidden text-sm text-zinc-200" aria-label="Open menu">
               <a href="/#" className="hover:text-[var(--gold)]">House</a>
+              <a href="/your-queen" className="hover:text-[var(--gold)]">Your Queen</a>
             </button>
           </div>
         </header>
