@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react';
 type FormState = {
   name: string;
   email: string;
+  age 21+: string;
   city: 'Wirral' | 'Manchester' | 'London' | 'Other';
   cityOther: string;
   sessions: string[];
@@ -28,6 +29,7 @@ export default function ContactForm() {
   const [form, setForm] = useState<FormState>({
     name: '',
     email: '',
+    age 21+: '',
     city: 'Wirral',
     cityOther: '',
     sessions: [],
