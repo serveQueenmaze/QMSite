@@ -52,6 +52,7 @@ export default function ContactForm() {
     const errs: string[] = [];
     if (!form.name.trim()) errs.push('Full name is required.');
     if (!/^\S+@\S+\.\S+$/.test(form.email)) errs.push('A valid email is required.');
+    if (!/^\S+@\S+\.\S+$/.test(form.age)) errs.push('A valid age is required.');
     if (form.city === 'Other' && !form.cityOther.trim()) errs.push('Please specify your city.');
     if (form.sessions.length === 0) errs.push('Select at least one desired session.');
     if (!form.datesTimes.trim()) errs.push('Provide preferred dates and times.');
@@ -66,6 +67,7 @@ export default function ContactForm() {
     const body =
       `Full name: ${form.name}\n` +
       `Email: ${form.email}\n` +
+      `Age 21+: ${form.age 21+}\n` +
       `City: ${cityDisplay}\n\n` +
       `Desired session(s):\n- ${form.sessions.join('\n- ')}\n\n` +
       `Preferred dates & times:\n${form.datesTimes}\n\n` +
