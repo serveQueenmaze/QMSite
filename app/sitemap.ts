@@ -10,6 +10,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: `${baseUrl}/your-queen`,
+  lastModified: new Date(),
+  priority: 0.8,
+},
+    {
       url: `${baseUrl}/structure`,
       lastModified: new Date(),
       priority: 0.8,
