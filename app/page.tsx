@@ -26,6 +26,7 @@ export default function Home() {
 
   const links = [
     { href: '#manifesto', label: 'Enter the House' },
+    { href: '/your-queen', label: 'Meet Your Queen' },
     { href: '/structure', label: 'Structure' },
     { href: '#house', label: 'Explore the Empire' },
     { href: '/reverie', label: 'Chamber of Reverie' },
