@@ -40,7 +40,7 @@ export default function Home() {
     { href: 'https://fetlife.com/QueenMaze', label: 'Fetlife', sub: 'Inner Sanctum' },
     { href: 'https://x.com/QueenMazetweets', label: 'X (Twitter)', sub: 'Thoughts & Philosophy' },
     { href: 'https://bsky.app/profile/queenmaze.bsky.social', label: 'Bluesky', sub: 'Parallel Reflections' },
-    { href: '#email', label: 'Email List', sub: 'Join the House' },
+    { href: 'https://locktober-court2026.my.canva.site', label: 'Locktober', sub: 'Be Challenged' },
     { href: '#merch', label: 'Merch (Coming soon)', sub: 'Objects of Discipline' },
   ];
 
